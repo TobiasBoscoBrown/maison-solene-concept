@@ -1,0 +1,15 @@
+Hi Studio Circa,
+
+I read the brief (hotel), and rather than just describe my work, I built you a live boutique-hotel concept so you can judge it directly:
+
+https://maison-solene-concept.vercel.app
+
+It is "Maison Solène," an invented riverside retreat in Charlevoix. Fully responsive on desktop and mobile, designed around storytelling, clear hierarchy and type, and accessible layouts: a quiet hero, a rooms system, a farm-to-table page, Nordic baths, and a booking flow.
+
+Two honest notes. I am an independent designer and developer, not an agency, so you would work directly with me. My real hospitality work is La Esperanza Bakery, a food-and-beverage brand site; I built the hotel concept above specifically to show I understand this genre, and I want to be upfront that it is a concept, not a past client.
+
+The concept is coded, but your project is a Figma engagement and that is exactly how I would deliver it: a moodboard first for your Creative Director and client to approve, then the key pages and components in Figma, desktop and mobile, iterated on your feedback.
+
+I would love to hear the property's story and where you want to take it. Happy to talk through my process on a quick call.
+
+Tobias, BuildMyTribe
