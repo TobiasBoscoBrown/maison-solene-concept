@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Maison Solène — A Riverside Retreat in Charlevoix, Québec</title>
+<meta name="description" content="Maison Solène is a boutique hotel concept on the St. Lawrence in Charlevoix, Québec — fourteen rooms, a farm-to-table table, and Nordic baths above the river." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top" aria-label="Maison Solène, home">
+      <span class="nav__mark">&#10022;</span>
+      <span class="nav__word">Maison&nbsp;Solène</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#stay">Stay</a>
+      <a href="#table">La Table</a>
+      <a href="#baths">Nordic Baths</a>
+      <a href="#journal">Experiences</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#reserve" class="btn btn--brass nav__cta">Reserve</a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#stay">Stay</a>
+    <a href="#table">La Table</a>
+    <a href="#baths">Nordic Baths</a>
+    <a href="#journal">Experiences</a>
+    <a href="#visit">Visit</a>
+    <a href="#reserve" class="btn btn--brass">Reserve a Room</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero__media">
+    <img src="images/hero.jpg" alt="A timber-and-stone retreat lit at dusk above a forested river valley" fetchpriority="high" />
+  </div>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="hero__content">
+    <p class="eyebrow eyebrow--light">Charlevoix · Québec</p>
+    <h1 class="hero__title">Stay a while<br />by the river.</h1>
+    <p class="hero__sub">A fourteen-room retreat on the St. Lawrence, where the forest comes to the window and the day slows to the pace of the tide.</p>
+    <div class="hero__actions">
+      <a href="#reserve" class="btn btn--brass">Check Availability</a>
+      <a href="#stay" class="btn btn--ghost">View the Rooms</a>
+    </div>
+  </div>
+  <a href="#welcome" class="hero__scroll" aria-label="Scroll to content"><span></span></a>
+</section>
+
+<section class="resbar" id="reserve" aria-label="Check availability">
+  <form class="resbar__form" onsubmit="return false;">
+    <div class="resbar__field">
+      <label for="arrive">Arrival</label>
+      <input type="date" id="arrive" name="arrive" />
+    </div>
+    <div class="resbar__field">
+      <label for="depart">Departure</label>
+      <input type="date" id="depart" name="depart" />
+    </div>
+    <div class="resbar__field">
+      <label for="guests">Guests</label>
+      <select id="guests" name="guests">
+        <option>1 guest</option>
+        <option selected>2 guests</option>
+        <option>3 guests</option>
+        <option>4 guests</option>
+      </select>
+    </div>
+    <button class="btn btn--brass resbar__btn" id="resBtn">Check Availability</button>
+  </form>
+  <p class="resbar__note" id="resNote" hidden>Thank you — our reservations team will confirm your dates within the hour. (Demo form.)</p>
+</section>
+
+<section class="welcome section" id="welcome">
+  <div class="welcome__grid reveal">
+    <div class="welcome__lead">
+      <p class="eyebrow">A quiet luxury</p>
+      <h2 class="display">Built for the people who notice the small things.</h2>
+    </div>
+    <div class="welcome__body">
+      <p>Maison Solène sits where the boreal forest meets the widening river, an hour past the last traffic light. Inside, fourteen rooms in warm oak, linen, and blackened steel. Outside, a thousand acres of spruce, a private stretch of shoreline, and a sky with nothing in the way of it.</p>
+      <p>We keep the place small on purpose. No queue at the desk, no script at the door — a host who knows your name and a fire that is already lit.</p>
+      <ul class="facts">
+        <li><span>14</span>Rooms &amp; Suites</li>
+        <li><span>1,000</span>Acres of Forest</li>
+        <li><span>2018</span>Year Opened</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band reveal">
+  <img class="band__img" src="images/property.jpg" alt="A terrace of loungers above the water with mountains in the distance" loading="lazy" />
+</section>
+
+<section class="stay section" id="stay">
+  <div class="section__head reveal">
+    <p class="eyebrow">The Rooms</p>
+    <h2 class="display">Fourteen ways to wake up here.</h2>
+    <p class="section__intro">Every room faces the water. Choose the one that matches the kind of quiet you are after.</p>
+  </div>
+  <div class="rooms">
+    <article class="room reveal">
+      <div class="room__img"><img src="images/suite-belvedere.jpg" alt="A low-lit suite in warm wood with a wide reading nook" loading="lazy" /></div>
+      <div class="room__body">
+        <h3>The Belvédère</h3>
+        <p>A corner suite under the eaves, wrapped in oak, with a deep window seat made for grey mornings and good books.</p>
+        <div class="room__meta"><span>Sleeps 2</span><span class="room__price">from $390 / night</span></div>
+        <a href="#reserve" class="link-arrow">Reserve the Belvédère &rarr;</a>
+      </div>
+    </article>
+    <article class="room reveal">
+      <div class="room__img"><img src="images/suite-riviere.jpg" alt="A bedroom opening to a balcony over a forested valley at dusk" loading="lazy" /></div>
+      <div class="room__body">
+        <h3>La Rivière</h3>
+        <p>Our signature room. A private balcony hangs over the treeline, close enough to the water to hear it after dark.</p>
+        <div class="room__meta"><span>Sleeps 2</span><span class="room__price">from $460 / night</span></div>
+        <a href="#reserve" class="link-arrow">Reserve La Rivière &rarr;</a>
+      </div>
+    </article>
+    <article class="room reveal">
+      <div class="room__img"><img src="images/suite-jardin.jpg" alt="A bright room with tall windows looking onto green woodland" loading="lazy" /></div>
+      <div class="room__body">
+        <h3>Le Jardin</h3>
+        <p>Ground-floor and full of light, with doors that open straight onto the herb garden and the path down to the shore.</p>
+        <div class="room__meta"><span>Sleeps 3</span><span class="room__price">from $340 / night</span></div>
+        <a href="#reserve" class="link-arrow">Reserve Le Jardin &rarr;</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="split section" id="table">
+  <div class="split__media reveal">
+    <img src="images/dining.jpg" alt="A candlelit dining room with a long bar and warm timber walls" loading="lazy" />
+  </div>
+  <div class="split__text reveal">
+    <p class="eyebrow">La Table</p>
+    <h2 class="display">Dinner is whatever the valley gave us today.</h2>
+    <p>One menu, written each afternoon. Trout from the river, vegetables from the garden behind the kitchen, bread pulled from the oven while you settle in. Twenty-eight seats, one long fire, and a cellar that leans hard toward Québec growers.</p>
+    <p class="split__detail">Served nightly, 6 to 9. Open to the public by reservation.</p>
+    <a href="#reserve" class="link-arrow">Book a table &rarr;</a>
+  </div>
+</section>
+
+<section class="band band--short reveal">
+  <img class="band__img" src="images/dining-detail.jpg" alt="A plated tasting course finished by candlelight at the table" loading="lazy" />
+</section>
+
+<section class="split split--reverse section" id="baths">
+  <div class="split__media reveal">
+    <img src="images/spa.jpg" alt="Wooden boats moored on a still lake ringed by mountains at dawn" loading="lazy" />
+  </div>
+  <div class="split__text reveal">
+    <p class="eyebrow">Nordic Baths</p>
+    <h2 class="display">Hot, cold, river, repeat.</h2>
+    <p>A thermal circuit cut into the slope above the water — wood-fired sauna, cold plunge fed from the spring, and three open-air pools that steam against the trees. Reserve a private session at dusk and stay until the stars arrive.</p>
+    <p class="split__detail">Complimentary for overnight guests. Robes and tea provided.</p>
+    <a href="#reserve" class="link-arrow">Reserve the baths &rarr;</a>
+  </div>
+</section>
+
+<section class="exp section" id="journal">
+  <div class="section__head reveal">
+    <p class="eyebrow">Experiences</p>
+    <h2 class="display">The valley is the amenity.</h2>
+  </div>
+  <div class="exp__grid">
+    <article class="exp__item reveal"><h3>Guided River Mornings</h3><p>Canoe the quiet inlets with a local guide before breakfast, coffee waiting on the dock when you return.</p></article>
+    <article class="exp__item reveal"><h3>Forest Walks</h3><p>Forty kilometres of marked trail from the door, from gentle shoreline loops to the ridge above the treeline.</p></article>
+    <article class="exp__item reveal"><h3>The Dark-Sky Deck</h3><p>No light pollution for miles. We leave blankets and a star chart out; the rest is up to the weather.</p></article>
+    <article class="exp__item reveal"><h3>Table-to-Garden Tours</h3><p>Walk the kitchen garden with our chef, then taste the day's menu where it was grown.</p></article>
+  </div>
+</section>
+
+<section class="gallery section reveal" aria-label="Gallery">
+  <figure class="gallery__a"><img src="images/gallery-valley.jpg" alt="A river winding through a forested mountain valley" loading="lazy" /></figure>
+  <figure class="gallery__b"><img src="images/gallery-forest.jpg" alt="Tall pines rising into morning mist" loading="lazy" /></figure>
+  <figure class="gallery__c"><img src="images/gallery-mist.jpg" alt="Low cloud settling over green mountains at first light" loading="lazy" /></figure>
+</section>
+
+<section class="visit section" id="visit">
+  <div class="visit__grid reveal">
+    <div class="visit__info">
+      <p class="eyebrow">Plan Your Stay</p>
+      <h2 class="display">An hour past Québec City, a world away from it.</h2>
+      <p class="visit__addr">114 Chemin du Fleuve<br />Charlevoix, Québec, Canada</p>
+      <dl class="visit__hours">
+        <div><dt>Check-in</dt><dd>From 4:00 PM</dd></div>
+        <div><dt>Season</dt><dd>Open year-round</dd></div>
+        <div><dt>Reservations</dt><dd>+1 (418) 555-0142</dd></div>
+      </dl>
+    </div>
+    <div class="visit__cta">
+      <h3>Reserve your stay</h3>
+      <p>Tell us your dates and we will hold the room that suits you. Direct bookings include breakfast and the baths.</p>
+      <a href="#reserve" class="btn btn--brass btn--block">Check Availability</a>
+      <a href="mailto:stay@maisonsolene.example" class="link-arrow">Or write to us &rarr;</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__mark">&#10022;</span>
+      <span class="nav__word">Maison&nbsp;Solène</span>
+      <p>A riverside retreat in Charlevoix, Québec.</p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#stay">Stay</a>
+      <a href="#table">La Table</a>
+      <a href="#baths">Nordic Baths</a>
+      <a href="#journal">Experiences</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </div>
+  <div class="footer__base">
+    <p>&copy; 2026 Maison Solène (concept). All rights reserved.</p>
+    <p>Crafted by BuildMyTribe</p>
+  </div>
+</footer>
+
+<div class="ribbon" role="note">Design concept by <strong>BuildMyTribe</strong> · fictional property, not affiliated with any real hotel</div>
+
+<script src="script.js"></script>
+</body>
+</html>
